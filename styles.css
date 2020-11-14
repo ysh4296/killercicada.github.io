@@ -5,6 +5,7 @@ li{
   list-style-type: square;
 }
 li.special{
+  list-style-type: square;
   color: orange;
   font-weight: bold;
 }
