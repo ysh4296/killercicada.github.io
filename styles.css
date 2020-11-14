@@ -2,7 +2,6 @@ h1{
   color: red;
 }
 li.special{
-  list-style-type: none;
   color: orange;
   font-weight: bold;
 }
