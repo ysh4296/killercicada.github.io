@@ -2,11 +2,10 @@ h1{
   color: red;
 }
 li.special{
-  list-style-type: 1;
+  //list-style-type: none;
   color: orange;
   font-weight: bold;
 }
 
  li {
-  list-style-type: none;
 }
