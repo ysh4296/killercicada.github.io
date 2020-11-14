@@ -1,10 +1,11 @@
 h1{
   color: red;
 }
- li {
-  list-style-type: none;
-}
 li.special{
   color: orange;
   font-weight: bold;
+}
+
+ li {
+  list-style-type: none;
 }
