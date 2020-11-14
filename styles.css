@@ -4,3 +4,7 @@ h1{
  li {
   list-style-type: none;
 }
+.special{
+  color: orange;
+  font-weight: bold;
+}
