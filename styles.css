@@ -9,3 +9,8 @@ li.special{
   color: orange;
   font-weight: bold;
 }
+p{
+ border: 2px solid rgba(100,0,0,0.6); 
+ color : rgba(0,0,200,0.6);
+ border-radius: 30% 0%;
+}
