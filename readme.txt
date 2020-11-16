@@ -4,3 +4,9 @@
 html 기본
 https://engkimbs.tistory.com/599?category=695219
 
+그리드 설계
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction
+
+
+js
+https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/What_is_JavaScript
