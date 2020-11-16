@@ -6,6 +6,7 @@ https://engkimbs.tistory.com/599?category=695219
 
 그리드 설계
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction
+https://heropy.blog/2018/11/24/css-flexible-box/
 
 
 js
