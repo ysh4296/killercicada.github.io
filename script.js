@@ -1,5 +1,5 @@
 function createParagraph(){
-let para = document.createElement('li');
+let para = document.createElement('ul');
 para.textContent = 'You clicked the button!';
 document.body.appendChild(para);
 }
