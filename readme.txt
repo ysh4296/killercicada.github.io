@@ -11,3 +11,7 @@ https://heropy.blog/2018/11/24/css-flexible-box/
 
 js
 https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+
+
+DOM 요소
+http://www.tcpschool.com/javascript/js_dom_node
