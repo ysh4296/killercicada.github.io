@@ -1,4 +1,7 @@
 function createParagraph(){
+  let script = document.createElement('script');
+  script.src = "add.js";
+  document.body.append(script);
 let para = document.createElement('p');
 para.textContent = 'You clicked the button!';
 document.body.appendChild(para);
