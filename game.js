@@ -36,3 +36,10 @@ function checkGuess(){
   guessField.value = '';
   guessField.focus();
 }
+
+guessSubmit.addEventListener('click',checkGuess);
+
+function setGameOver(){
+  
+  
+}
