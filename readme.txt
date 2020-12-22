@@ -10,7 +10,7 @@ https://heropy.blog/2018/11/24/css-flexible-box/
 
 
 js
-https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/A_first_splash
 
 
 DOM 요소
