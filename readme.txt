@@ -2,7 +2,7 @@
 
 
 html 기본
-https://engkimbs.tistory.com/599?category=695219
+https://www.codingfactory.net/
 
 그리드 설계
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction
