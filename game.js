@@ -21,7 +21,7 @@ function checkGuess(){
     lowOrHi.textContent =' ';
     setGameOver();
   } else if (guessCount === 10){
-    lastResult.textContent = '!!!GAMEOVER!!!;
+    lastResult.textContent = '!!!GAMEOVER!!!';
     setGameOver();
   } else {
     lastResult.textContent = 'Wrong!';
