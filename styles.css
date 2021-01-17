@@ -2,15 +2,15 @@ html{
   font-family : sans-serif;
 }
 body{
+  div#warp { background:#ddd;}
+  header#header{background:#fdd;}
+  nav#nav{ background:#dfd;}
+  section#container {background:#eee;}
+  div.content{background:#eee;}
+  aside#sidebar{background:#fef;}
+  footer#footer{background:ffe;}
+
+  nav#nav ul { margin:0; padding:0; list-style:none; }
+  nav#nav ul li { background:#eee; padding:10px; display:inline-block; }
   padding:10px;
 }
-div#warp { background:#ddd;}
-header#header{background:#fdd;}
-nav#nav{ background:#dfd;}
-section#container {background:#eee;}
-div.content{background:#eee;}
-aside#sidebar{background:#fef;}
-footer#footer{background:ffe;}
-     
-nav#nav ul { margin:0; padding:0; list-style:none; }
-nav#nav ul li { background:#eee; padding:10px; display:inline-block; }
