@@ -1,35 +1,32 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <title>My test page</title>
-
-    <link rel="icon" href="image/google.png">
-    <link rel="stylesheet" href="styles.css">
-    <script defer src = "game.js"></script>
+    <title> 블로그 </title>
   </head>
   <body>
-    <h1><strong>about blog</strong></h1>
-    <p><a href="https://google.com" title="google homepage" target = "_blank"> 구글.</a></p>
-    <p>chris</p>
-    <!-- <img src="image/turtle.jpg"> 
-    <ul>
-      <li><a>Item one</li>
-      <li><a>Item two</li>
-      <li><a>Item <em>three</em></li>
-    </ul>
-    -->
-    <div class = "form">
-      <label for = "guessField"> Enter a guess : </label>
-      <input type = "text" id = "guessField" class = "guessField">
-      <input type = "submit" value = "Submit guess" class = "guessSubmit">
-    </div>
-    <div class = "resultParas">
-      <p class = "guesses"></p>
-      <p class = "lastResult"></p>
-      <p class = "lowOrHi"></p>
-    </div>
+    <div id = "wrap">
+        <h1>#블로그 이름</h1>
+    <nav id = "nav">
+        <ul>
+            <li>메뉴 1</li>
+            <li>메뉴 2</li>
+            <li>메뉴 3</li>
+        </ul>
+    </nav>
+    <section id = "container">
+        <div class = "content">
+            <article>
+            # 본문
+            </article>
+        </div>
+        <aside id = "side">
+            # 사이드
+        </aside>
+    
+    </section>
+    <footer id = "footer">
+        # 푸터
+    </footer>
+    </div>  
   </body>
 </html>
