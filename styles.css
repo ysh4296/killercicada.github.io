@@ -7,7 +7,7 @@ footer#footer { background:#ffe; }
 
 div#warp, header#header, nav#nav,
 section#container, div.content, aside#aside,
-footer { padding:0px; }
+footer { padding:10px; }
 nav{
     background:#dfd;
 }
