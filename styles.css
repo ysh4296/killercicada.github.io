@@ -9,7 +9,7 @@ div#warp, header#header, nav#nav,
 section#container, div.content, aside#aside,
 footer { padding:0px; }
 nav{
-    background:#dfd;
+    //background:#dfd;
     ul{
         margin:0;
         padding:0;
