@@ -10,14 +10,14 @@ section#container, div.content, aside#aside,
 footer { padding:0px; }
 nav{
     background:#dfd;
-    ul{
-        margin:0;
-        padding:0;
-        list-style:none;
-    }
-    ul li { 
-        background:#eee;
-        padding:10px;
-        display:inline-block;
-    }
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+ul li { 
+    background:#eee;
+    padding:10px;
+    display:inline-block;
 }
