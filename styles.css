@@ -1,22 +1,35 @@
-div#wrap { background:#ddd; }
-header#header { background:#fdd; }
-section#container { background:#ddf; }
-    div.content { background:#eee; }
-    aside#aside { background:#fef; }
-footer#footer { background:#ffe; }
-
 div#warp, header#header, nav#nav,
 section#container, div.content, aside#aside,
-footer { padding:10px; }
-nav{
+footer { 
+    padding:10px; 
+}
+div#wrap { 
+    background:#ddd; 
+}
+header#header { 
+    background:#fdd; 
+}
+section#container { 
+    background:#ddf;
+}
+div.content { 
+    background:#eee;
+}
+aside#aside { 
+    background:#fef; 
+}
+footer#footer { 
+    background:#ffe; 
+}
+nav#nav{
     background:#dfd;
 }
-ul{
+nav#nav ul{
     margin:0;
     padding:0;
     list-style:none;
 }
-ul li { 
+nav#nav ul li { 
     background:#eee;
     padding:10px;
     display:inline-block;
