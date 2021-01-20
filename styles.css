@@ -1,42 +1,34 @@
-div#warp, header#header, nav#nav,
-section#container, div.content, aside#aside,
+div#warp, header#header, nav#menu,
+section#container, div.content,
 footer { 
     padding:10px; 
 }
 div#wrap { 
     width: 900px;
     margin:0 auto;
-    //background:#ddd; 
+    border: 5px solid maroon;
 }
 header#header { 
-    //background:#fdd; 
+    border: 5px solid blue;
 }
 section#container {
     overflow: auto;
-    //background:#ddf;
 }
 div.content { 
-    width:60%;
-    float:left;
-    //background:#eee;
+    border: 5px solid purple;
 }
-aside#aside { 
-    width:30%;
-    float:right;
-    //background:#fef; 
+footer#footer {  
+    border: 5px solid olive;
 }
-footer#footer { 
-    //background:#ffe; 
+nav#menu{
+    border: 5px solid skyblue;
 }
-nav#nav{
-    //background:#dfd;
-}
-nav#nav ul{
+nav#menu ul{
     margin:0;
     padding:0;
     list-style:none;
 }
-nav#nav ul li { 
+nav#menu ul li { 
     background:#eee;
     padding:10px;
     //display:inline-block;
