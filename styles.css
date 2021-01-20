@@ -6,30 +6,30 @@ footer {
 div#wrap { 
     width: 900px;
     margin:0 auto;
-    background:#ddd; 
+    //background:#ddd; 
 }
 header#header { 
-    background:#fdd; 
+    //background:#fdd; 
 }
 section#container {
     overflow: auto;
-    background:#ddf;
+    //background:#ddf;
 }
 div.content { 
     width:60%;
     float:left;
-    background:#eee;
+    //background:#eee;
 }
 aside#aside { 
     width:30%;
     float:right;
-    background:#fef; 
+    //background:#fef; 
 }
 footer#footer { 
-    background:#ffe; 
+    //background:#ffe; 
 }
 nav#nav{
-    background:#dfd;
+    //background:#dfd;
 }
 nav#nav ul{
     margin:0;
@@ -39,5 +39,5 @@ nav#nav ul{
 nav#nav ul li { 
     background:#eee;
     padding:10px;
-    display:inline-block;
+    //display:inline-block;
 }
