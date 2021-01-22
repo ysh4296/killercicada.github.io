@@ -52,7 +52,7 @@ div.content {
 div.post {
     border: 5px solid purple;
     height: 1230px;
-    overflow:auto;
+    overflow: auto;
 }
 footer#footer {  
     border: 5px solid olive;
