@@ -3,6 +3,9 @@ section#container, div.content,
 footer { 
     padding:10px; 
 }
+a{
+    color:black;
+}
 div#wrap { 
     width: 900px;
     margin:0 auto;
