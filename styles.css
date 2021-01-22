@@ -1,5 +1,5 @@
 div#warp, div.latest_post, header#header, nav#menu,
-section#container, div.content,
+section#container, div.content,div.post,
 footer { 
     padding:10px; 
 }
@@ -49,6 +49,10 @@ div.content {
     border: 5px solid purple;
     height: 300px;
 }
+div.post {
+    border: 5px solid purple;
+    height: 1230px;
+}
 footer#footer {  
     border: 5px solid olive;
     width: 870px;
@@ -57,4 +61,3 @@ footer#footer {
     left: 0;
     position: relative;
 }
-
