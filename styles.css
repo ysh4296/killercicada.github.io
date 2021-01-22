@@ -1,4 +1,4 @@
-div#warp, header#header, nav#menu,
+div#warp, div.latest_post, header#header, nav#menu,
 section#container, div.content,
 footer { 
     padding:10px; 
@@ -9,20 +9,25 @@ a{
 }
 div#wrap { 
     width: 900px;
-    margin:0 auto;
+    height: 1600px;
+    margin: 0 auto;
     border: 5px solid maroon;
+}
+div.latest_post{
+    width: 850px;
+    height: 150px;
+    border: 5px solid red;
+}
+div.latest_post a{
+    display:block;
+    color:red;
+    width:800px;
+    height: 80px;
+    padding: 30px 15px 30px;
+    border: 5px solid grey;
 }
 header#header { 
     border: 5px solid blue;
-}
-section#container {
-    overflow: auto;
-}
-div.content { 
-    border: 5px solid purple;
-}
-footer#footer {  
-    border: 5px solid olive;
 }
 nav#menu{
     border: 5px solid skyblue;
@@ -37,3 +42,19 @@ nav#menu ul li {
     padding:10px;
     //display:inline-block;
 }
+section#container {
+    overflow: auto;
+}
+div.content { 
+    border: 5px solid purple;
+    height: 300px;
+}
+footer#footer {  
+    border: 5px solid olive;
+    width: 870px;
+    bottom: -80px;
+    right: 0;
+    left: 0;
+    position: relative;
+}
+
