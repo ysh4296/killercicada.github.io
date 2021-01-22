@@ -12,6 +12,7 @@ div#wrap {
     height: 1600px;
     margin: 0 auto;
     border: 5px solid maroon;
+    overflow: auto;
 }
 div.latest_post{
     width: 850px;
