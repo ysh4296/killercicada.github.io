@@ -9,10 +9,9 @@ a{
 }
 div#wrap { 
     width: 900px;
-    height: 1600px;
+    height: auto;
     margin: 0 auto;
     border: 5px solid maroon;
-    overflow: auto;
 }
 div.latest_post{
     width: 850px;
@@ -44,21 +43,19 @@ nav#menu ul li {
     //display:inline-block;
 }
 section#container {
-    overflow: auto;
+    height: auto;
 }
 div.content { 
     border: 5px solid purple;
-    height: 300px;
+    height: auto;
 }
 div.post {
     border: 5px solid purple;
-    height: 1230px;
-    overflow : auto;
+    height: auto;
 }
 footer#footer {  
     border: 5px solid olive;
     width: 870px;
-    bottom: -80px;
     right: 0;
     left: 0;
     position: relative;
