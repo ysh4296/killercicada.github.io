@@ -56,3 +56,13 @@ footer#footer {
     left: 0;
     position: relative;
 }
+ul.image li { 
+    background:#eee;
+    width:250px;
+    padding:10px;
+    display:inline-block;
+}
+ul.image{
+  width:850px;
+  border: 5px solid blue;
+}
