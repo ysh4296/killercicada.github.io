@@ -13,12 +13,12 @@ div#wrap {
     margin: 0 auto;
     border: 5px solid maroon;
 }
-div.latest_post{
+div.post{
     width: 850px;
     height: 150px;
     border: 5px solid red;
 }
-div.latest_post a{
+div.post a{
     display:block;
     color:red;
     width:800px;
