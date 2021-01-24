@@ -58,11 +58,11 @@ footer#footer {
 }
 ul.image li { 
     background:#eee;
-    width:250px;
+    width:240px;
     padding:10px;
     display:inline-block;
 }
 ul.image{
-  width:850px;
+  width:auto;
   border: 5px solid blue;
 }
