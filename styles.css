@@ -29,6 +29,7 @@ div.post a{
 header#header { 
     background:#eee;
     border-bottom: 3px solid grey;
+    margin-bottom: 10px;
     width:auto;
     box-shadow:5px 5px 20px grey;
 }
