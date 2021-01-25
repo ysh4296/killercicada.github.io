@@ -29,7 +29,7 @@ div.post a{
 header#header { 
     background:#eee;
     border-bottom: 3px solid grey;
-    width:250px;
+    width:auto;
     box-shadow:5px 5px 20px grey;
 }
 nav#menu{
@@ -58,15 +58,4 @@ footer#footer {
     right: 0;
     left: 0;
     position: relative;
-}
-ul.image li { 
-    background:#eee;
-    width:240px;
-    height:auto;
-    padding:10px;
-    display:inline-block;
-}
-ul.image{
-  width:auto;
-  border: 5px solid blue;
 }
