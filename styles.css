@@ -27,7 +27,10 @@ div.post a{
     border: 5px solid grey;
 }
 header#header { 
-    border: 5px solid blue;
+    background:#eee;
+    border-bottom: 3px solid grey;
+    width:250px;
+    box-shadow:5px 5px 20px grey;
 }
 nav#menu{
     border: 5px solid skyblue;
