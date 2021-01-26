@@ -43,15 +43,16 @@ nav#menu ul{
     margin:0;
     padding:0;
     border-top: 2px solid #c8c8c8;
+    border-bottom: 2px solid #c8c8c8;
     list-style:none;
 }
 nav#menu ul li { 
-    font-size:30px;
+    font-size:15px;
     padding:10px;
     font-weight : 500;
     margin-left: 10px;
     margin-right: 10px;
-    border-bottom: 2px solid #c8c8c8;
+    border-top: 2px solid #c8c8c8;
     //display:inline-block;
 }
 section#container {
