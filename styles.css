@@ -34,6 +34,7 @@ header#header {
     margin-bottom: 10px;
     width:auto;
     box-shadow:5px 5px 20px grey;
+    text-align: center;
 }
 nav#menu{
     border: 5px solid skyblue;
