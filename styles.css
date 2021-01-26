@@ -37,16 +37,21 @@ header#header {
     text-align: center;
 }
 nav#menu{
-    border: 5px solid skyblue;
 }
 nav#menu ul{
+    font-size:20px;
     margin:0;
     padding:0;
+    border-top: 2px solid #c8c8c8;
     list-style:none;
 }
 nav#menu ul li { 
-    background:#eee;
+    font-size:15px;
     padding:10px;
+    font-weight : 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 2px solid #c8c8c8;
     //display:inline-block;
 }
 section#container {
