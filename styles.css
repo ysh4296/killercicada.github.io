@@ -67,10 +67,11 @@ div.content {
   padding:10px;
 }
 footer#footer {  
-    border: 5px solid olive;
-    width: 870px;
-    right: 0;
-    left: 0;
+    margin: 10px;
+    border-top: 2px solid #c8c8c8;
+    font-weight:500;
+    color: #969696;
+    text-align : center;
     position: relative;
 }
 div.c_header{
