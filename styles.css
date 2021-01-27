@@ -58,8 +58,9 @@ section#container {
     height: auto;
 }
 div.content { 
-    border: 5px solid purple;
-    height: auto;
+  border: 2px solid #c8c8c8;
+  height: auto;
+  padding:10px;
 }
 footer#footer {  
     border: 5px solid olive;
@@ -67,4 +68,29 @@ footer#footer {
     right: 0;
     left: 0;
     position: relative;
+}
+div.c_header{
+  display: inline;
+  margin-bottom:100px;
+}
+div.s_header{
+   display:block;
+   font-size:20px;
+   font-weight:800;
+   border-left: 10px solid #c8c8c8;
+   border-bottom: 1px solid #c8c8c8;
+   margin-top:20px;
+   margin-bottom:20px;
+}
+h.title{
+  font-size:30px;
+  display:block;
+  border-bottom: 2px solid #c8c8c8;
+  font-weight:800;
+}
+span.date{
+  color:#c8c8c8;
+  border-bottom: 2px solid #c8c8c8;
+  display:block;
+  margin-bottom:20px;
 }
