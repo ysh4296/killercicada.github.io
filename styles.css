@@ -9,6 +9,7 @@ a{
 }
 html body{
     margin:0;
+    width:900px;
 }
 div#wrap { 
     width: 900px;
