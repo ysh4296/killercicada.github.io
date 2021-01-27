@@ -61,7 +61,8 @@ section#container {
     height: auto;
 }
 div.content { 
-  border: 2px solid #c8c8c8;
+  border-top: 2px solid #c8c8c8;
+  border-bottom: 2px solid #c8c8c8;
   height: auto;
   padding:10px;
 }
