@@ -81,6 +81,7 @@ div.c_header{
 }
 div.s_header{
    display:block;
+   height:200px;
    font-size:20px;
    font-weight:800;
    border-left: 10px solid #c8c8c8;
