@@ -11,12 +11,10 @@
 xmlhttp.onreadystatechange = function() { if (xmlhttp.readyState==4 && xmlhttp.status==200) {
 
          str = xmlhttp.responseText.split(' ');
-
+         for(var i ; i < str.size() ; i++){
+            document.getElementById(myDiv).append(str[i]);
+         }
      }
-      for(var i ; i < str.size() ; i++){
-         document.getElementById(myDiv).append(str[i]);
-         document.getElementById(myDiv).append(i + <br>);
-      }
    }
 
    xmlhttp.open("GET","data/a.txt",true);
