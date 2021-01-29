@@ -1,48 +1,37 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>블로그</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/styles.css">
-  </head>
-  <body>
-    <header id = "header">
-      <h1><a href="/">#블로그 이름 및 헤더</a></h1>
-    </header>
-    <div id = "wrap">
-    <nav id = "menu">
-        <ul> #카테고리
-        <li><a href = "/category/make_blog.html">블로그 만들기</a></li>
-        </ul>
-    </nav>
-    <section id = "container">
-        <div class = "content">
-            <article>
-             <p>
-             # 본문<br><br></p>
-              <p> ysh4296의 블로그입니다.
-              </p>
 
-            </article>
-        </div>
-        <div class = "post">
-        <a href="/category/make_blog/21.01.21-블로그만들기/블로그만들기.html">블로그만들기</a>
-        </div>
-        <div class = "post">
-        <a href="/category/make_blog/21.01.24-카테고리_및_페이지_분할/21.01.24-카테고리_및_페이지_분할.html
-">카테고리_및_페이지_분할</a>
-        </div>
-        <div class = "post">
-        <a href="/category/make_blog/21.01.27-블로그_꾸미기/블로그_꾸미기.html">블로그 꾸미기</a>
-        </div>
-        <div class = "post">
-        </div>
-        <div class = "post">
-        </div>
-    </section>
-    </div>  
-    <footer id = "footer">
-        Email : dbtmdgns4296@naver.com
-    </footer>
-  </body>
+<head>
+
+<script type="text/javascript">
+
+   function loadTxt() {
+
+      xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : alert("XMLHTTP를 지원하지 않는 브라우저입니다");
+
+xmlhttp.onreadystatechange = function() { if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+
+         document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+
+     }
+
+   }
+
+   xmlhttp.open("GET","data/a.txt",true);
+
+   xmlhttp.send();
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div id="myDiv"><h2>AJAX에 대해 배워봅시다.</h2></div>
+
+<button type="button" onclick="loadTxt()">내용변경</button>
+
+</body>
+
 </html>
