@@ -12,7 +12,8 @@ xmlhttp.onreadystatechange = function() { if (xmlhttp.readyState==4 && xmlhttp.s
 
          data = JSON.parse(xmlhttp.responseText);
          for(let i = 0 ; i < data.post_list.length ; i++){
-            document.getElementById("myDiv").append(data.post_list[i].title+<br>);
+            document.getElementById("myDiv").append(data.post_list[i].title);
+            document.getElementById("myDiv").append(document.createElement("br"))
          }
      }
    }
