@@ -7,17 +7,17 @@
    function loadTxt() {
 
       var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : alert("XMLHTTP를 지원하지 않는 브라우저입니다");
-      var str = 10;
+      var data = 10;
 xmlhttp.onreadystatechange = function() { if (xmlhttp.readyState==4 && xmlhttp.status==200) {
 
-         str = xmlhttp.responseText.split(' ');
+         data = JSON.parse(xmlhttp.responseText);
          for(let i = 0 ; i < str.length ; i++){
-            document.getElementById("myDiv").append(str[i]);
+            document.getElementById("myDiv").append(data.post_list.title[i]);
          }
      }
    }
 
-   xmlhttp.open("GET","data/a.txt",true);
+   xmlhttp.open("GET","/post_list.json",true);
 
    xmlhttp.send();
 
