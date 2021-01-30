@@ -12,7 +12,7 @@ xmlhttp.onreadystatechange = function() { if (xmlhttp.readyState==4 && xmlhttp.s
 
          data = JSON.parse(xmlhttp.responseText);
          for(let i = 0 ; i < data.post_list.length ; i++){
-            document.getElementById("myDiv").append(data.post_list.title[i]);
+            document.getElementById("myDiv").append(data.post_list[0].title);
          }
      }
    }
