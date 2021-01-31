@@ -1,42 +1,59 @@
+<!DOCTYPE html>
 <html>
-
-<head>
-<link rel="stylesheet" href="/styles.css">
-<script type="text/javascript">
-
-   function load_post() {
-
-      var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : alert("XMLHTTP를 지원하지 않는 브라우저입니다");
-      var data = 10;
-xmlhttp.onreadystatechange = function() { if (xmlhttp.readyState==4 && xmlhttp.status==200) {
-
-         data = JSON.parse(xmlhttp.responseText);
-         for(let i = 0 ; i < data.post_list.length ; i++){
-            var A = document.createElement("a");
-            A.appendChild(document.createTextNode(data.post_list[i].title));
-            A.href = data.post_list[i].url;
-            document.querySelector(".post").append(A);
-            document.querySelector(".post").append(document.createElement("br"));
+  <head>
+    <title>블로그</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles.css">
+    <script type="text/javascript">
+      window.onload = function(){
+         load_post();
+      }
+      function load_post() {
+            var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : alert("XMLHTTP를 지원하지 않는 브라우저입니다");
+            var data = 10;
+      xmlhttp.onreadystatechange = function() { 
+         if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+               data = JSON.parse(xmlhttp.responseText);
+               for(let i = 0 ; i < data.post_list.length ; i++){
+                  var A = document.createElement("a");
+                  A.appendChild(document.createTextNode(data.post_list[i].title));
+                  A.href = data.post_list[i].url;
+                  var D = document.createElement("div");
+                  D.className = "post";
+                  D.append(A);
+                  document.querySelector(".content").append(D);
+               }
+           }
          }
-     }
-   }
+         xmlhttp.open("GET","/post_list.json",true);
+         xmlhttp.send();
+      }
+      </script>
+  </head>
+  <body>
+    <header id = "header">
+      <h1><a href="/">#블로그 이름 및 헤더</a></h1>
+    </header>
+    <div id = "wrap">
+    <nav id = "menu">
+        <ul> #카테고리
+        <li><a href = "/category/make_blog.html">블로그 만들기</a></li>
+        </ul>
+    </nav>
+    <section id = "container">
+        <div class = "content">
+            <article>
+             <p>
+             # 본문<br><br></p>
+              <p> ysh4296의 블로그입니다.
+              </p>
 
-   xmlhttp.open("GET","/post_list.json",true);
-
-   xmlhttp.send();
-
-}
-
-</script>
-
-</head>
-
-<body>
-
-<div class="post"><h2>AJAX에 대해 배워봅시다.</h2></div>
-
-<button type="button" onclick="load_post()">내용변경</button>
-
-</body>
-
+            </article>
+        </div>
+    </section>
+    </div>  
+    <footer id = "footer">
+        Email : dbtmdgns4296@naver.com
+    </footer>
+  </body>
 </html>
