@@ -13,7 +13,7 @@ xmlhttp.onreadystatechange = function() { if (xmlhttp.readyState==4 && xmlhttp.s
          data = JSON.parse(xmlhttp.responseText);
          for(let i = 0 ; i < data.post_list.length ; i++){
             var A = document.createElement("a");
-            A.appendChild(data.post_list[i].title);
+            A.appendChild(document.createTextNode(data.post_list[i].title));
             A.href = data.post_list[i].url;
             document.getElementById("myDiv").append(A + document.createElement("br"));
          }
