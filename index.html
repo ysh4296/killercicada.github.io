@@ -4,7 +4,7 @@
 
 <script type="text/javascript">
 
-   function loadTxt() {
+   function load_post() {
 
       var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : alert("XMLHTTP를 지원하지 않는 브라우저입니다");
       var data = 10;
@@ -12,8 +12,10 @@ xmlhttp.onreadystatechange = function() { if (xmlhttp.readyState==4 && xmlhttp.s
 
          data = JSON.parse(xmlhttp.responseText);
          for(let i = 0 ; i < data.post_list.length ; i++){
-            document.getElementById("myDiv").append(data.post_list[i].title);
-            document.getElementById("myDiv").append(document.createElement("br"))
+            var A = document.createElement("a");
+            A.appendChild(data.post_list[i].title);
+            A.href = data.post_list[i].url;
+            document.getElementById("myDiv").append(A + document.createElement("br"));
          }
      }
    }
@@ -32,7 +34,7 @@ xmlhttp.onreadystatechange = function() { if (xmlhttp.readyState==4 && xmlhttp.s
 
 <div id="myDiv"><h2>AJAX에 대해 배워봅시다.</h2></div>
 
-<button type="button" onclick="loadTxt()">내용변경</button>
+<button type="button" onclick="load_post()">내용변경</button>
 
 </body>
 
