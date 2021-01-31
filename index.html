@@ -15,8 +15,8 @@ xmlhttp.onreadystatechange = function() { if (xmlhttp.readyState==4 && xmlhttp.s
             var A = document.createElement("a");
             A.appendChild(document.createTextNode(data.post_list[i].title));
             A.href = data.post_list[i].url;
-            document.querySelector("post").append(A);
-            document.querySelector("post").append(document.createElement("br"));
+            document.querySelector(".post").append(A);
+            document.querySelector(".post").append(document.createElement("br"));
          }
      }
    }
