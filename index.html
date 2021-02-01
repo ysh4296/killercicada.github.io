@@ -19,7 +19,7 @@
       }
       function load_post(num) {
         data = JSON.parse(xmlhttp.responseText);
-          for(let i = 1 ; i+num < data.post_list.length || i < 10 ; i++){
+          for(let i = 0 ; i+num < data.post_list.length || i < 10 ; i++){
           var A = document.createElement("a");
           A.appendChild(document.createTextNode(data.post_list[i+num].title));
           A.href = data.post_list[i+num].url;
