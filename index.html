@@ -19,10 +19,10 @@
       }
       function load_post(num) {
         data = JSON.parse(xmlhttp.responseText);
-          for(let i = 0 ; i+num < data.post_list.length && i < 10 ; i++){
+          for(let i = 0 ; i+num*10 < data.post_list.length && i < 10 ; i++){
           var A = document.createElement("a");
-          A.appendChild(document.createTextNode(data.post_list[i+num].title));
-          A.href = data.post_list[i+num].url;
+          A.appendChild(document.createTextNode(data.post_list[i+num*10].title));
+          A.href = data.post_list[i+num*10].url;
           var D = document.createElement("div");
           D.className = "post";
           D.append(A);
