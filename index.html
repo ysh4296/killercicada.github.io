@@ -17,7 +17,7 @@
         xmlhttp.open("GET","/post_list.json",true);
         xmlhttp.send();
       }
-      function load_post(var num) {
+      function load_post(num) {
         data = JSON.parse(xmlhttp.responseText);
           for(let i = 0 ; i+num < data.post_list.length || i < 10 ; i++){
           var A = document.createElement("a");
