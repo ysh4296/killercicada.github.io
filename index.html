@@ -26,7 +26,7 @@
           var D = document.createElement("div");
           D.className = "post";
           D.append(A);
-          document.querySelector(".content").append(D);
+          document.querySelector(".content_post").append(D);
         }
       }
       function create_button(cur){
@@ -34,7 +34,7 @@
           var B = document.createElement("button");
           B.innerHTML = i;
           if(i != cur) B.addEventListener('click',load_post.bind(null,i-1));
-          document.querySelector(".content").append(B);
+          document.querySelector(".content_post").append(B);
         }
       }
       </script>
@@ -57,6 +57,8 @@
               <p> ysh4296의 블로그입니다.
               </p>
             </article>
+          <div class = "content_post">
+          </div>
         </div>
     </section>
     </div>  
