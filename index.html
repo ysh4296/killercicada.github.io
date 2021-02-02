@@ -11,7 +11,6 @@
         xmlhttp.onreadystatechange = function() {
             if (xmlhttp.readyState==4 && xmlhttp.status==200) {
               load_post(0);
-              create_button(0);
             }
         }
         xmlhttp.open("GET","/post_list.json",true);
@@ -28,6 +27,7 @@
           D.append(A);
           document.querySelector(".content_post").append(D);
         }
+        create_button(num);
       }
       function create_button(cur){
         for(var i = 1 ; i <= Math.ceil(data.post_list.length/10) ; i++){
