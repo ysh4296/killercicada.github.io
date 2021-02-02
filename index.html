@@ -11,7 +11,7 @@
         xmlhttp.onreadystatechange = function() {
             if (xmlhttp.readyState==4 && xmlhttp.status==200) {
               load_post(0);
-              create_button();
+              create_button(0);
             }
         }
         xmlhttp.open("GET","/post_list.json",true);
@@ -29,11 +29,11 @@
           document.querySelector(".content").append(D);
         }
       }
-      function create_button(){
+      function create_button(var cur){
         for(var i = 1 ; i <= Math.ceil(data.post_list.length/10) ; i++){
           var B = document.createElement("button");
           B.innerHTML = i;
-          B.addEventListener('click',load_post.bind(null,i-1));
+          if(i != cur) B.addEventListener('click',load_post.bind(null,i-1));
           document.querySelector(".content").append(B);
         }
       }
