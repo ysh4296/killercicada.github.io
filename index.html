@@ -17,6 +17,7 @@
         xmlhttp.send();
       }
       function load_post(num) {
+        document.querySelector(".content_post").innerHTML = ""; 
         data = JSON.parse(xmlhttp.responseText);
           for(let i = 0 ; i+num*10 < data.post_list.length && i < 10 ; i++){
           var A = document.createElement("a");
