@@ -101,3 +101,11 @@ span.date{
   display:block;
   margin-bottom:20px;
 }
+div.post_button{
+    
+    display:inline-block;
+}
+div.empty_block{
+    
+    display:inline-block;
+}
