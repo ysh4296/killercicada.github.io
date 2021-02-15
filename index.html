@@ -47,7 +47,7 @@
             document.querySelector(".button_list").append(B);
             continue;
           }
-          if(Math.ceil(data.post_list.length/10)) break;
+          if(i > Math.ceil(data.post_list.length/10)) break;
           var B = document.createElement("button");
           B.className = "post_button";
           B.innerHTML = i;
