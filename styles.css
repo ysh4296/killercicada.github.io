@@ -102,10 +102,10 @@ span.date{
   margin-bottom:20px;
 }
 div.post_button{
-    
+    background-color: grey;
     display:inline-block;
 }
 div.empty_block{
-    
+    background-color: grey;
     display:inline-block;
 }
