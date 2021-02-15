@@ -31,11 +31,36 @@
         create_button(num);
       }
       function create_button(cur){
-        for(var i = 1 ; i <= Math.ceil(data.post_list.length/10) ; i++){
+        //front button
+        if(cur-3 > 1){
           var B = document.createElement("button");
+          B.className = "post_button";
+          B.innerHTML = "<";
+          if(i !== cur) B.addEventListener('click',load_post.bind(null,i-1));
+          document.querySelector(".button_list").append(B);
+        }
+        for(var i = cur-3 ; i <= cur+3 ; i++){
+          if(i <= 0){
+            var B = document.createElement("div");
+            B.className = "empty_button";
+            B.innerHTML = "";
+            document.querySelector(".button_list").append(B);
+            continue;
+          }
+          if(Math.ceil(data.post_list.length/10)) break;
+          var B = document.createElement("button");
+          B.className = "post_button";
           B.innerHTML = i;
-          if(i != cur) B.addEventListener('click',load_post.bind(null,i-1));
-          document.querySelector(".content_post").append(B);
+          if(i !== cur) B.addEventListener('click',load_post.bind(null,i-1));
+          document.querySelector(".button_list").append(B);
+        }
+        //back button
+        if(cur+3 < Math.ceil(data.post_list.length/10)){
+          var B = document.createElement("button");
+          B.className = "post_button";
+          B.innerHTML = "<";
+          if(i !== cur) B.addEventListener('click',load_post.bind(null,i-1));
+          document.querySelector(".button_list").append(B);
         }
       }
       </script>
@@ -59,6 +84,8 @@
               </p>
             </article>
           <div class = "content_post">
+          </div>
+          <div class = "button_list">
           </div>
         </div>
     </section>
