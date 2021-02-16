@@ -37,7 +37,7 @@
           var B = document.createElement("button");
           B.className = "post_button";
           B.innerHTML = "<";
-          if(i !== cur) B.addEventListener('click',load_post.bind(null,i-1));
+          if(i !== cur) B.addEventListener('click',load_post.bind(null,(cur-10) >= 1 ? cur-10 : 1));
           document.querySelector(".button_list").append(B);
         }
         for(var i = cur-3 ; i <= cur+3 ; i++){
@@ -59,7 +59,7 @@
           var B = document.createElement("button");
           B.className = "post_button";
           B.innerHTML = "<";
-          if(i !== cur) B.addEventListener('click',load_post.bind(null,i-1));
+          if(i !== cur) B.addEventListener('click',load_post.bind(null,cur+4));
           document.querySelector(".button_list").append(B);
         }
       }
