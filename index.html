@@ -51,7 +51,7 @@
           var B = document.createElement("button");
           B.className = "post_button";
           B.innerHTML = i;
-          if(i !== cur) B.addEventListener('click',load_post.bind(null,i-1));
+          if(i-1 !== cur) B.addEventListener('click',load_post.bind(null,i-1));
           document.querySelector(".button_list").append(B);
         }
         //back button
