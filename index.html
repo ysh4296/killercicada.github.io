@@ -39,6 +39,12 @@
           B.innerHTML = "<";
           if(i !== cur) B.addEventListener('click',load_post.bind(null,(cur-10) >= 1 ? cur-10 : 1));
           document.querySelector(".button_list").append(B);
+        } else {
+          var B = document.createElement("div");
+          B.className = "empty_button";
+          B.innerHTML = " ";
+          document.querySelector(".button_list").append(B);
+          continue;
         }
         for(var i = cur-3 ; i <= cur+3 ; i++){
           if(i <= 0 || i > Math.ceil(data.post_list.length/10)){
@@ -61,6 +67,12 @@
           B.innerHTML = ">";
           if(i !== cur) B.addEventListener('click',load_post.bind(null,cur+4));
           document.querySelector(".button_list").append(B);
+        } else {
+          var B = document.createElement("div");
+          B.className = "empty_button";
+          B.innerHTML = " ";
+          document.querySelector(".button_list").append(B);
+          continue;
         }
       }
       </script>
