@@ -58,7 +58,7 @@
         if(cur+3 < Math.ceil(data.post_list.length/10)){
           var B = document.createElement("div");
           B.className = "post_button";
-          B.innerHTML = "<";
+          B.innerHTML = ">";
           if(i !== cur) B.addEventListener('click',load_post.bind(null,cur+4));
           document.querySelector(".button_list").append(B);
         }
