@@ -34,7 +34,7 @@
       function create_button(cur){
         //front button
         if(cur-3 > 1){
-          var B = document.createElement("button");
+          var B = document.createElement("div");
           B.className = "post_button";
           B.innerHTML = "<";
           if(i !== cur) B.addEventListener('click',load_post.bind(null,(cur-10) >= 1 ? cur-10 : 1));
@@ -48,7 +48,7 @@
             document.querySelector(".button_list").append(B);
             continue;
           }
-          var B = document.createElement("button");
+          var B = document.createElement("div");
           B.className = "post_button";
           B.innerHTML = i;
           if(i-1 !== cur) B.addEventListener('click',load_post.bind(null,i-1));
@@ -56,7 +56,7 @@
         }
         //back button
         if(cur+3 < Math.ceil(data.post_list.length/10)){
-          var B = document.createElement("button");
+          var B = document.createElement("div");
           B.className = "post_button";
           B.innerHTML = "<";
           if(i !== cur) B.addEventListener('click',load_post.bind(null,cur+4));
