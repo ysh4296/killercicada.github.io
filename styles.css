@@ -103,9 +103,9 @@ span.date{
 }
 div.button_list{
   position: relative;
-  right: 250px;
-  left: 250px;
-  width: 350px;
+  right: 245px;
+  left: 245px;
+  width: 360px;
   height: 40px;
   border: 1px solid blue;
   background-color:rgba(0,0,0,0);
