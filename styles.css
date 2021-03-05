@@ -120,6 +120,10 @@ div.post_button{
     text-align: center;
     display: inline-block;
 }
+div.post_button:hover{
+  cursor: pointer;
+  color : red;
+}
 div.empty_button{
     float: left;
     width: 20px;
