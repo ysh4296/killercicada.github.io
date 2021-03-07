@@ -19,7 +19,7 @@ div#wrap {
     margin: 0 auto;
 }
 div.post{
-    position:absolute
+    position: absolute;
     width: 85%;
     left: 0;
     right: 0;
@@ -104,7 +104,7 @@ span.date{
   margin-bottom: 20px;
 }
 div.button_list{
-  position: relative;
+  position: absolute;
   left: 0;
   right: 0;
   width: 360px;
