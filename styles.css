@@ -14,19 +14,19 @@ html body{
     margin: 0;
 }
 div#wrap {
-    width: 900px;
+    width: 90%;
     height: auto;
     margin: 0 auto;
 }
 div.post{
-    width: 850px;
+    width: 85%;
     height: 150px;
     border: 5px solid red;
 }
 div.post a{
     display: block;
     color: red;
-    width: 800px;
+    width: 80%;
     height: 80px;
     padding: 30px 15px 30px;
     border: 5px solid grey;
