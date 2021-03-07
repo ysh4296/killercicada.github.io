@@ -19,6 +19,7 @@ div#wrap {
     margin: 0 auto;
 }
 div.post{
+    position:absolute
     width: 85%;
     left: 0;
     right: 0;
