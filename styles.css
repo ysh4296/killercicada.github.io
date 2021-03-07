@@ -20,6 +20,8 @@ div#wrap {
 }
 div.post{
     width: 85%;
+    left: 0;
+    right: 0;
     height: 150px;
     border: 5px solid red;
 }
@@ -102,8 +104,8 @@ span.date{
 }
 div.button_list{
   position: relative;
-  right: 245px;
-  left: 245px;
+  left: 0;
+  right: 0;
   width: 360px;
   height: 40px;
   background-color: rgba(0, 0, 0, 0);
