@@ -33,7 +33,11 @@
           var title = document.createElement("span");
           title.className = "title";
           title.appendChild(document.createTextNode(data.post_list[i+num*10].title));
-          A.appendChild(title);
+          A.appendChild(title); 
+          var date = document.createElement("span");
+          date.className = "date";
+          date.appendChild(document.createTextNode(data.post_list[i+num*10].date));
+          A.appendChild(date);
           var excerpt = document.createElement("span");
           excerpt.className = "excerpt";
           excerpt.appendChild(document.createTextNode(data.post_list[i+num*10].excerpt));
