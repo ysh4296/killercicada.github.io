@@ -27,7 +27,6 @@ div.post{
 div.post a{
     display: block;
     color: red;
-    height: 80px;
     padding: 30px 15px 30px;
     border: 5px solid grey;
 }
