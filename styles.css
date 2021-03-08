@@ -36,6 +36,7 @@ div.post a .thum{
     height: 150px;
     color: red;
     margin: 20px;
+    object-fit: cover;
 }
 div.post a .title{
     font-size: 30px;
