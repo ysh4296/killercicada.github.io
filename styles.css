@@ -57,6 +57,7 @@ div.post a .excerpt{
     display: block;
     overflow: hidden;
     font-weight: 400;
+    height: 130px;
 }
 header#header {
     border-bottom: 3px solid grey;
