@@ -39,6 +39,11 @@ div.post a .thum{
     object-fit: cover;
     overflow: hidden;
 }
+div.post a .thum img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 div.post a .title{
     font-size: 30px;
     display: block;
