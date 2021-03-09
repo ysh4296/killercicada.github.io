@@ -26,16 +26,15 @@ div.post{
 }
 div.post a{
     display: block;
-    height: 200px;
+    height: 210px;
     padding: 10px;
     border: 5px solid grey;
 }
 div.post a .thum{
     float: right;
-    width: 100px;
-    height: 150px;
+    width: 140px;
+    height: 190px;
     color: red;
-    margin: 20px;
     object-fit: cover;
     overflow: hidden;
 }
@@ -60,6 +59,7 @@ div.post a .date{
 }
 div.post a .excerpt{
     display: block;
+    overflow: hidden;
     text-overflow: ellipsis;
     font-weight: 400;
     height: 130px;
