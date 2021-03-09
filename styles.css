@@ -60,7 +60,7 @@ div.post a .date{
 }
 div.post a .excerpt{
     display: block;
-    overflow: hidden;
+    text-overflow: ellipsis;
     font-weight: 400;
     height: 130px;
 }
