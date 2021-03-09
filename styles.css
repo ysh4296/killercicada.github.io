@@ -27,7 +27,7 @@ div.post{
 div.post a{
     display: block;
     height: 180px;
-    padding: 30px 15px 30px;
+    padding: 10px;
     border: 5px solid grey;
 }
 div.post a .thum{
