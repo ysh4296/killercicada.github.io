@@ -137,12 +137,14 @@ div.s_header{
 h.title{
   font-size: 30px;
   display: block;
+  padding-bottom: 5px;
   border-bottom: 2px solid #c8c8c8;
   font-weight: 800;
 }
 span.date{
   color: #c8c8c8;
-  text-decoration: underline #c8c8c8;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #c8c8c8;
   display: block;
   margin-bottom: 20px;
 }
