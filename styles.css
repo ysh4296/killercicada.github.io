@@ -25,13 +25,12 @@ div.post{
     margin: 0 auto;
     width: 85%;
     height: 250px;
-    border: 5px solid red;
 }
 div.post a{
     display: block;
     height: 210px;
     padding: 10px;
-    border: 5px solid grey;
+    border-bottom: 2px solid #c8c8c8;
 }
 div.post a .thum{
     float: right;
@@ -40,6 +39,7 @@ div.post a .thum{
     color: red;
     object-fit: cover;
     overflow: hidden;
+    border: 2px;
 }
 div.post a .thum img{
     max-width: 100%;
@@ -52,7 +52,6 @@ div.post a .title{
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
-    border-bottom: 2px solid #c8c8c8;
     font-weight: 800;
 }
 div.post a .date{
