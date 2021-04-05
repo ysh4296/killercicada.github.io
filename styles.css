@@ -73,7 +73,6 @@ div.post a .excerpt{
     -webkit-box-orient: vertical;
     font-weight: 400;
     font-size: 1.2em;
-    height: 5.4em;
 }
 header#header {
     border-bottom: 3px solid grey;
@@ -144,11 +143,10 @@ h.title{
 }
 span.date{
   color: #c8c8c8;
-  padding-bottom: 20px;    
+  padding-bottom: 10px;    
   text-decoration: underline #c8c8c8;
   padding-left: 10px;
   display: block;
-  margin-bottom: 20px;
 }
 div.button_list{
   margin: 0 auto;
