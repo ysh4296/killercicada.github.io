@@ -1,5 +1,5 @@
 body{
-    font-family: 'Jeju Gothic', sans-serif;
+    font-family: "RIDI Batang", sans-serif;
 }
 div#warp, div.latest_post, header#header, nav#menu,
 section#container, div.content,div.post,
@@ -25,13 +25,13 @@ div.post{
     margin: 0 auto;
     width: 85%;
     height: 250px;
-    border: 5px;
+    border: 5px solid red;
 }
 div.post a{
     display: block;
     height: 210px;
     padding: 10px;
-    border-bottom: 2px solid #c8c8c8;
+    border: 5px solid grey;
 }
 div.post a .thum{
     float: right;
@@ -49,10 +49,11 @@ div.post a .thum img{
 div.post a .title{
     font-size: 30px;
     display: block;
-    width: 340px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
     border-bottom: 2px solid #c8c8c8;
     font-weight: 800;
-    text-overflow: ellipsis;
 }
 div.post a .date{
     font-size: 15px;
@@ -66,8 +67,11 @@ div.post a .excerpt{
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     font-weight: 400;
-    height: 130px;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    height: 5.4em;
 }
 header#header {
     border-bottom: 3px solid grey;
