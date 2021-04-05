@@ -59,7 +59,7 @@ div.post a .title{
 div.post a .date{
     font-size: 15px;
     display: block;
-    border-bottom: 2px solid #c8c8c8;
+    text-decoration: underline #c8c8c8;
     font-weight: 800;
     overflow: hidden;
 }
@@ -142,7 +142,7 @@ h.title{
 }
 span.date{
   color: #c8c8c8;
-  border-bottom: 2px solid #c8c8c8;
+  text-decoration: underline #c8c8c8;
   display: block;
   margin-bottom: 20px;
 }
