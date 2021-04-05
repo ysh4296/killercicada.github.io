@@ -41,7 +41,7 @@ div.post a .thum{
     color: red;
     object-fit: cover;
     overflow: hidden;
-    border: 2px;
+    border: 2px solid #c8c8c8;
 }
 div.post a .thum img{
     max-width: 100%;
