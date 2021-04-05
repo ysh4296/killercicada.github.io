@@ -19,6 +19,9 @@ article{
 html body{
     margin: 0;
 }
+html body p{
+    font-size: 1.2em;
+}
 div#wrap {
     width: 90%;
     height: auto;
