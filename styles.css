@@ -46,10 +46,11 @@ div.post a .thum img{
 div.post a .title{
     font-size: 30px;
     display: block;
-    width: 340px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
     border-bottom: 2px solid #c8c8c8;
     font-weight: 800;
-    text-overflow: ellipsis;
 }
 div.post a .date{
     font-size: 15px;
@@ -59,12 +60,15 @@ div.post a .date{
     overflow: hidden;
 }
 div.post a .excerpt{
-    display: block;
+    display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     font-weight: 400;
-    width: 100%;
-    height: 130px;
+    font-size:0.9375em;
+    line-height: 1.2em;    
+    height: 3.6em;
 }
 header#header {
     border-bottom: 3px solid grey;
