@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 body{
     font-family: "Nanum Gothic", sans-serif;
-    line-height: 1.8em;
+    line-height: 2.0em;
 }
 div#warp, div.latest_post, header#header, nav#menu,
 section#container, div.content,div.post,
