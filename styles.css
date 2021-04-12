@@ -128,15 +128,16 @@ div.c_header{
   display: inline;
   margin-bottom: 100px;
 }
-div.s_header{
-   display: block;
-   font-size: 35px;
-   height: 50px;
-   font-weight: 600;
-   border-left: 10px solid #c8c8c8;
-   border-bottom: 1px solid #c8c8c8;
-   margin-top: 20px;
-   margin-bottom: 20px;
+div.s_header {
+    display: block;
+    font-size: 35px;
+    height: 45px;
+    font-weight: 600;
+    border-left: 10px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 h.title{
   font-size: 50px;
@@ -147,7 +148,8 @@ h.title{
 }
 span.date {
     color: #c8c8c8;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
     border-bottom: 1px solid #c6c6c6;
     padding-left: 10px;
     display: block;
