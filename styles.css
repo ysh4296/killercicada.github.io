@@ -68,6 +68,8 @@ div.post a span.date {
     color: #c8c8c8;
     font-weight: 600;
     overflow: hidden;
+    padding-left: 5px;
+    padding-bottom: 10px;
 }
 div.post a .excerpt{
     display: -webkit-box;
