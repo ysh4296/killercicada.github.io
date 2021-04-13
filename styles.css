@@ -91,6 +91,18 @@ header#header {
     text-align: center;
 }
 nav#menu{
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    hieght: 100%;
+    z-index: 999;
+    background: #333;
+    color: #fff;
+    transition: all 0.3s;
+}
+nav#menu.active{
+    left: 0;
 }
 nav#menu ul{
     font-size: 30px;
