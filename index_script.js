@@ -86,10 +86,10 @@ function create_button(cur){
     var B = document.createElement("div");
     B.className = "empty_button";
     B.innerHTML = " ";
-    document.querySelector(".button_list").append(B);
+    document.querySelector("button_list").append(B);
   }
 }
 function Active_side(){
-  document.getElementById(".menu").add('active');
+  document.getElementById("menu").add('active');
 }
 
