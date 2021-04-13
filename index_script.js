@@ -86,7 +86,7 @@ function create_button(cur){
     document.querySelector(".button_list").append(B);
   }
   //set page
-  document.getElementById("menu_button").setAttribute("onClick", "Active_side");
+  document.getElementById(".menu_button").setAttribute("onClick", "Active_side");
 }
 function Active_side(){
   document.getElementById(".menu").addClass("active");
