@@ -101,6 +101,11 @@ nav#menu{
     color: #fff;
     transition: all 0.3s;
 }
+button#menu_button{
+    top: 10px;
+    position: fixed;
+    height: 50px;
+}
 nav#menu.active{
     left: 0;
 }
