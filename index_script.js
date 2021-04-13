@@ -90,11 +90,11 @@ function create_button(cur){
   }
 }
 function Active_side(){
-  document.getElementById("menu").add('active');
+  document.getElementById("menu").classList.add('active');
   document.getElementById("overlay").style.display = 'block';
 }
 function Deactive_side(){
-  document.getElementById("menu").remove('active');
+  document.getElementById("menu").classList.remove('active');
   document.getElementById("overlay").style.display = 'none';
 }
 
