@@ -91,5 +91,6 @@ function create_button(cur){
 }
 function Active_side(){
   document.getElementById("menu").add('active');
+  document.getElementById("overlay").style.display = 'block';
 }
 
