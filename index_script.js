@@ -89,6 +89,6 @@ function create_button(cur){
   document.getElementById(".menu_button").setAttribute("onClick", "Active_side");
 }
 function Active_side(){
-  document.getElementById(".menu").addClass("active");
+  document.getElementById(".menu").add('active');
 }
 
