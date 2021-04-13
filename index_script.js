@@ -1,5 +1,8 @@
 var data,xmlhttp;
 window.onload = function(){
+  //set page
+  document.getElementById(".menu_button").setAttribute("onClick", "Active_side");
+  
   //get data
   xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : alert("XMLHTTP를 지원하지 않는 브라우저입니다");
   xmlhttp.onreadystatechange = function() {
@@ -85,8 +88,6 @@ function create_button(cur){
     B.innerHTML = " ";
     document.querySelector(".button_list").append(B);
   }
-  //set page
-  document.getElementById(".menu_button").setAttribute("onClick", "Active_side");
 }
 function Active_side(){
   document.getElementById(".menu").add('active');
