@@ -16,6 +16,9 @@ a{
 article{
     font-size: 18px;
 }
+div.content article p{
+    font-size: 1.4em;
+}
 html body{
     margin: 0;
 }
@@ -137,7 +140,6 @@ div.s_header {
     font-weight: 600;
     border-left: 10px solid #c8c8c8;
     border-bottom: 1px solid #c8c8c8;
-    padding-top: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
