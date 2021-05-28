@@ -139,6 +139,9 @@ nav#menu ul li {
     border-top: 2px solid #c8c8c8;
     //display: inline-block;
 }
+nav#menu ul li a{
+    color: white;
+}
 section#container {
     height: auto;
 }
