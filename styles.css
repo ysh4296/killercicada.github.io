@@ -108,8 +108,10 @@ button#menu_button{
     top: 10px;
     position: fixed;
     height: 50px;
+    width: 52px;
     background: url("data/image/menu_button.png") no-repeat;
     cursor: pointer;
+    border: none;
 }
 div#overlay{
     position: fixed;
