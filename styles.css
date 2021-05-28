@@ -129,6 +129,7 @@ nav#menu ul{
     border-top: 2px solid #c8c8c8;
     border-bottom: 2px solid #c8c8c8;
     list-style: none;
+    margin-top: 30px;
 }
 nav#menu ul li {
     font-size: 20px;
