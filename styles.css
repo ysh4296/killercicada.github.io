@@ -110,6 +110,7 @@ button#menu_button{
     height: 50px;
     width: 52px;
     background: url("data/image/menu_button.png") no-repeat;
+    background-size: cover;
     cursor: pointer;
     border: none;
 }
