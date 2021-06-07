@@ -92,7 +92,7 @@ header#header {
 }
 nav#menu{
     width: 230px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: -250px;
     height: 100%;
